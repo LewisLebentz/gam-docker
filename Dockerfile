@@ -3,7 +3,7 @@ FROM alpine:latest
 LABEL maintainer="Lewis Lebentz - https://lew.im"
 
 ENV PATH="/opt/bin:$PATH" \
-    SOURCE_URL="https://github.com/jay0lee/GAM.git"
+    SOURCE_URL="https://github.com/taers232c/GAMADV-XTD3.git"
 
 RUN apk add --update --no-cache bash git python2 py-openssl py-pip \
     && rm -rf /var/cache/apk/*
