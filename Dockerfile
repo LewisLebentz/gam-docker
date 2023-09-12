@@ -14,7 +14,7 @@ RUN mkdir -p /opt/bin \
     && touch /opt/gam/src/nobrowser.txt \
     && touch /opt/gam/src/noupdatecheck.txt
 
-RUN pip install --upgrade python-dateutil filelock google-auth-oauthlib google-api-python-client pathvalidate
+RUN pip install --upgrade python-dateutil filelock google-auth-oauthlib google-api-python-client pathvalidate passlib
 
 WORKDIR /root
 ENTRYPOINT ["/bin/bash"]
